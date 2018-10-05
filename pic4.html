@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cal Pic</title>
+<style>
+.wrap {
+	width: 300px;
+}
+
+.wrap.style-1 {
+	width: 700px;
+}
+
+.field-txt {
+	padding: 6px 4px;
+	width: 120px;
+	border: 1px solid #333333;
+}
+
+.field-txt.style-1 {
+	width: 300px;
+}
+
+.list-order {
+	margin-top: 10px;
+}
+
+.list-order label {
+	display: inline-block;
+	width: 150px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+	<div class="list-order">
+    	<label>Width รูปทั้งหมด</label> <input type="text" value="" class="field-txt width-txt" placeholder="กรุณากรอกตัวเลข" />
+    </div>
+    <div class="list-order">
+    	<label>Height รูปทั้งหมด</label> <input type="text" value="" class="field-txt height-txt" placeholder="กรุณากรอกตัวเลข" />
+    </div>
+    <div class="list-order">
+    	<label>Width รูปที่เลือก</label> <input type="text" value="" class="field-txt width2-txt" placeholder="กรุณากรอกตัวเลข" />
+    </div>
+    <div class="list-order">
+    	<label>Height รูปที่เลือก</label> <input type="text" value="" class="field-txt height2-txt" placeholder="กรุณากรอกตัวเลข" />
+    </div>
+    <div class="list-order">
+    	<label>Left รูปที่เลือก</label> <input type="text" value="" class="field-txt left-txt" placeholder="กรุณากรอกตัวเลข" />
+    </div>
+    <div class="list-order">
+    	<label>Top รูปที่เลือก</label> <input type="text" value="" class="field-txt top-txt" placeholder="กรุณากรอกตัวเลข" />
+    </div>
+    <div class="list-order">
+    	<input type="button" value="OK" class="cal-btn" />
+    </div>
+</div>
+
+<div class="wrap style-1">
+	<div class="list-order">
+    	<label>Background Position</label> <input type="text" value="" class="field-txt style-1 bg-position-txt" placeholder="" />
+    </div>
+    <div class="list-order">
+    	<label>Background Size</label> <input type="text" value="" class="field-txt style-1 bg-size-txt" placeholder="" />
+    </div>
+</div>
+
+</body>
+</html>
